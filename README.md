@@ -1,2 +1,5 @@
 # polygon-filling-on-grids
-The scan line algorithm implementation with a simple test in ros
+The scan line algorithm implementation with a simple test in ros. \
+You can use the code in this repo with two ways:
+* Only add the files in fill_polygon to your projects.
+* Clone the repo into your ros workspace, run the code with catkin_make && roslaunch test test.launch.
