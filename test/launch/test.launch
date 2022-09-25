@@ -1,0 +1,10 @@
+<launch>
+
+    <node name="test_node" pkg="test" type="test_node" output="screen" >
+        <param name="csv_path" value="$(find test)/src/polygon_obstacles.csv" />
+        <param name="padding" value="8.0" />
+        <param name="resolution" value="0.1" />
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find test)/launch/test.rviz" />
+
+</launch>
